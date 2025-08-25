@@ -101,9 +101,15 @@ int main(){
     int a,b,c = 10;
     cout << a << "\n" << b << "\n" << c << "\n";
 }*/
-int main(){
+/*int main(){
     string str = "Hello World";
     std::cout << "Hello World" << endl;
     cout << str << endl;
+    return 0;
+}*/
+int main(){
+    const int a = 20;
+    int b = 10;
+    cout << a <<endl;
     return 0;
 }
